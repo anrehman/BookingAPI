@@ -2,6 +2,12 @@
 
 This is a small test project to create apis for classes and bookings using Java SpringBoot
 
+## Schema
+
+Classes and Bookings
+
+![SCHEMA](images/bookingapi.png)
+
 ## How to start the service
 
 ### Requirements:
@@ -94,5 +100,11 @@ As booking is linked with classes it is important to pass the `id` of class
   "memberName": "aniqa"
 }
 ```
+
+## Video Tutorial
+
+[![Watch the video](images/Booking.png)](https://youtu.be/jO1NvNxtInA)
+
+
 
 
