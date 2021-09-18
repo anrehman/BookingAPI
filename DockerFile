@@ -1,0 +1,8 @@
+FROM java:8
+VOLUME /tmp
+EXPOSE 8081
+ADD ./target/BookingAPI-0.0.1-SNAPSHOT.jar BookingAPI-0.0.1-SNAPSHOT.jar
+COPY ./entrypoint.sh /usr/local/bin
+RUN chown root:root /usr/local/bin/entrypoint.sh
+RUN chmod 4755 /usr/local/bin/entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
