@@ -74,6 +74,7 @@ Swagger should be accessible here [click here](http://localhost:8081/swagger-ui.
 
 ![Test](images/Swagger.png)
 
+There are also two junit tests in the **src->test** to test the apis, they were created while development of the apis.
 
 ## Sample data
 1. POST /classes
